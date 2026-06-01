@@ -447,14 +447,14 @@
 			<!-- Left content -->
 			<div class="space-y-8">
 				<!-- <h1 class="text-5xl lg:text-5xl font-bold leading-tight">LifeCard</h1> -->
-				<h1 class="mb-4 text-4xl font-bold text-slate-900 lg:text-6xl">
+				<h1 class="mb-4 text-3xl font-bold text-slate-900 lg:text-5xl">
 					LifeCard,
 					<span class="bg-teal-700 bg-clip-text text-transparent">
 						La carte de santé universelle
 					</span>
 				</h1>
 
-				<p class="text-xl leading-relaxed">
+				<p class="text-md leading-relaxed">
 					Imaginez un monde où votre dossier médical vous suit partout. LifeCard est bien plus
 					qu'une carte de santé : c'est votre compagnon médical qui garantit une prise
 					en charge rapide et efficace, que vous soyez en consultation, en voyage ou en situation
@@ -464,22 +464,24 @@
 				<!-- <p>Grâce à la technologie NFC et QR Code, vos informations vitales sont
 					accessibles instantanément par les professionnels de santé autorisés.</p> -->
 
-				<div class="flex flex-wrap gap-4">
+				<div class="flex flex-wrap gap-2 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 items-center">
 					<Button
-						size="lg"
-						class="rounded-full bg-teal-950 px-8 py-6 text-lg text-white hover:bg-white hover:text-cyan-950"
+						size="xs"
+						class="rounded-full bg-teal-950 py-6 text-sm text-white hover:bg-white hover:text-cyan-950"
 					>
 						Commander la carte
 						<span class="ml-2">→</span>
 					</Button>
 					<Button
-						size="lg"
+						size="xs"
 						variant="outline"
-						class="rounded-full border-teal-950 px-8 py-6 text-lg hover:bg-teal-950 hover:text-white"
+						class="rounded-full border-teal-950 py-5 text-sm hover:bg-teal-950 hover:text-white"
 					>
-					
 						Télécharger l'application 
+						
+						
 					</Button>
+					
 				</div>
 
 				<!-- Stats -->
