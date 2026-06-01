@@ -8,3 +8,4 @@ import { env } from '$env/dynamic/private';
 const client = createClient({ url: env.DATABASE_URL? env.DATABASE_URL : '' });
 
 export const db = drizzle(client, { schema });
+
