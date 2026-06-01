@@ -1,0 +1,1 @@
+<h1>soins en fonction du profil du paramédical : piqure, scanner, radiologie, etc...</h1>

@@ -1,0 +1,1 @@
+<h1>eux ils n'auront pas accès à la liste des patients, plutôt eux ils vont juste scanner la carte du patient et faie les soins qu'il y a à faire</h1>
